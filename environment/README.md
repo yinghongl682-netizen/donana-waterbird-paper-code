@@ -1,0 +1,1 @@
+Observed runtime versions accompany the code. These records do not establish successful clean-machine restoration. Python/R packages, binaries and fonts are external dependencies with their own licences. See README and VALIDATION.md.

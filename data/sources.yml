@@ -1,0 +1,14 @@
+sources:
+  aerial:
+    provider: ICTS-Doñana / EBD-CSIC
+    database: https://censos-aereos.icts-donana.es/
+    terms: https://censos-aereos.icts-donana.es/cita-recomendada/
+  terrestrial:
+    provider: ICTS-Doñana / EBD-CSIC
+    database: https://censos-terrestres.icts-donana.es/
+    terms: https://censos-terrestres.icts-donana.es/cita-recomendada/
+  final_reference_geography:
+    service: https://geoserver.icts-donana.es/geoserver/Seguimiento/wms
+    layer: Parcelas_Censo_Aereo_desde_2013
+    qualified_copy_date: 2026-11-08
+    external_input_not_distributed: true

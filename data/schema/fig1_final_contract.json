@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "authority": "Desktop final submission artwork 2026-11-08",
+  "raw_wms_sha256": "af83681000e7dc9f284f47aa9b98ed310b8a91f6faabcee32adde93a081c8684",
+  "union_sha256": "b79a334bced508546c2cd6c82af77c1552d17a0a445603158da1cee1a2039672",
+  "expected_features": 58,
+  "crs": "EPSG:25829",
+  "native_parent_counts": {
+    "PNC": 30,
+    "SB": 2
+  },
+  "attribute_encoding_repairs": 34,
+  "calendar_states": 396,
+  "files": {
+    "SENTINEL2_20220720.png": "2b75267781fa2be57e8212cd8c60b10ef83c48d4dfef4afaf3cbfc59b78ea741",
+    "F1/support/plot_data/CALENDAR_396_LOCKED_STATES.csv": "3d864e181c012c2652b537b2aee5446c19dbb862b179f7433bcfb48ce1edb73b",
+    "F1/support/plot_data/MAP_LAYERS_FINAL.json": "312e679f96f8c8f4106663d409b6b96a5aba8fdd5960f4a03129077224b5e9a6"
+  },
+  "omitted_inputs": [
+    "legacy WFS union",
+    "PNOA raster",
+    "event locators",
+    "unused native map attributes"
+  ],
+  "data_role": "External authorized inputs; no data shipped in code repository",
+  "sentinel_qa_semantics": {
+    "candidate": "SENTINEL2_20220720",
+    "bounds": [
+      693223.2258440853,
+      4071851.8866474433,
+      761117.4350810092,
+      4137938.3366950154
+    ],
+    "crs": "EPSG:25829",
+    "shape": [
+      6609,
+      6790
+    ],
+    "pixel_size": [
+      9.999147163022657,
+      9.999462860882455
+    ],
+    "valid_pixels": 44867859,
+    "total_pixels": 44875110,
+    "valid_fraction": 0.9998384182233759,
+    "valid_date_count_histogram": {
+      "0": 7251,
+      "1": 44867859
+    },
+    "display": {
+      "rgb": "red,green,blue",
+      "reflectance_limits": [
+        0,
+        0.3
+      ],
+      "gamma": 1.6,
+      "alpha": "0 for no valid observation; 255 otherwise",
+      "upsampling": "none beyond exact-extent nearest-neighbour registration"
+    },
+    "acquisition_dates": [
+      "2022-07-20"
+    ],
+    "source_tile_count": 4,
+    "valid_observation_meaning": "Distinct acquisition dates, 0 or 1. Overlapping tiles are not independent temporal observations.",
+    "processing": "First valid pixel in fixed selected-item order, all four granules from one datatake. SCL nearest-neighbour from20m to10m. Reflectance scale0.0001, no second -0.1 offset because provider already harmonized.",
+    "png": {
+      "path": "SENTINEL2_20220720.png",
+      "sha256": "2b75267781fa2be57e8212cd8c60b10ef83c48d4dfef4afaf3cbfc59b78ea741"
+    },
+    "reflectance": {
+      "path": "SENTINEL2_20220720_REFLECTANCE.tif",
+      "sha256": "0e980a346defdd9b88b3a3268a7cefead9fba0b8f76db06d19a26f54850525f8"
+    },
+    "valid_date_count": {
+      "path": "SENTINEL2_20220720_VALID_DATE_COUNT.tif",
+      "sha256": "8547ed1fd954357b542e6de2eb745bd92b9f869b02c07e30f5f3f4df49eb4a55"
+    }
+  },
+  "sentinel_qa_comparison": "All fields exact except created_utc; PNG and native windows retain byte hash locks"
+}

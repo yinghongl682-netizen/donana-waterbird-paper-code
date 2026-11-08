@@ -1,0 +1,66 @@
+{
+  "python_version": "3.12.14",
+  "scope": "Observed distributions used in the isolated offline validation environment; package names, versions and declared licence metadata only.",
+  "assembly_limitation": "Fresh isolated package directory assembled offline from existing installed distributions; not a fresh package-index restore or source build.",
+  "license_decision": "Metadata inventory only; no project code licence or dependency compatibility approval is granted.",
+  "packages": [
+    {
+      "package": "pandas",
+      "version": "3.0.1",
+      "license_expression_metadata": null,
+      "license_metadata_first_line": "BSD 3-Clause License",
+      "license_classifiers_metadata": [
+        "OSI Approved :: BSD License"
+      ]
+    },
+    {
+      "package": "numpy",
+      "version": "2.3.5",
+      "license_expression_metadata": null,
+      "license_metadata_first_line": "Copyright (c) 2005-2025, NumPy Developers.",
+      "license_classifiers_metadata": [
+        "OSI Approved :: BSD License"
+      ]
+    },
+    {
+      "package": "python-dateutil",
+      "version": "3.0.0",
+      "license_expression_metadata": null,
+      "license_metadata_first_line": "Dual License",
+      "license_classifiers_metadata": [
+        "OSI Approved :: BSD License",
+        "OSI Approved :: Apache Software License"
+      ]
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "license_expression_metadata": null,
+      "license_metadata_first_line": "MIT",
+      "license_classifiers_metadata": [
+        "OSI Approved :: MIT License"
+      ]
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.5",
+      "license_expression_metadata": null,
+      "license_metadata_first_line": "Apache-2.0",
+      "license_classifiers_metadata": []
+    },
+    {
+      "package": "pillow",
+      "version": "13.0.0",
+      "license_expression_metadata": "MIT-CMU",
+      "license_metadata_first_line": null,
+      "license_classifiers_metadata": []
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "license_expression_metadata": "Apache-2.0 OR BSD-2-Clause",
+      "license_metadata_first_line": null,
+      "license_classifiers_metadata": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "Observed reused local runtimes, not dependency-restoration proof",
+  "scientific_python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scientific_python_packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.3.5",
+    "python-dateutil": "3.0.0",
+    "six": "1.17.0",
+    "tzdata": "2026.5",
+    "pillow": "13.0.0",
+    "packaging": "26.3"
+  },
+  "figure_python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "figure_libraries": {
+    "matplotlib": "3.11.2",
+    "pillow": "13.0.0",
+    "fonttools": "4.68.0",
+    "pymupdf": "2.0"
+  },
+  "geospatial_python": "3.11.9",
+  "geopandas": "1.2.0",
+  "shapely": "2.2.0",
+  "R": "4.6.1",
+  "R_packages": "Existing environment/observed_r_packages.csv; current R availability separately checked",
+  "font": "Installed Arial regular/bold/italic; font binaries not bundled",
+  "svg_secondary_renderer": "CairoSVG; MuPDF SVG clipping/dash limitation retained"
+}

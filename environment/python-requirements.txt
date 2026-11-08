@@ -1,0 +1,9 @@
+# Exact observed isolated distribution set; Python 3.12.14.
+# This records installed identities, not a fresh package-index or wheel-hash restoration proof.
+pandas==3.0.1
+numpy==2.3.5
+python-dateutil==3.0.0
+six==1.17.0
+tzdata==2026.5
+pillow==13.0.0
+packaging==26.3

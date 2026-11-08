@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the research code."
+title: "Doñana waterbird monitoring analysis: paper code"
+type: software
+authors:
+  - family-names: Lin
+    given-names: Yinghong
+version: 1.0.0
+date-released: 2026-11-08
+license: MIT
+repository-code: "https://github.com/yinghongl682-netizen/donana-waterbird-paper-code"
+url: "https://github.com/yinghongl682-netizen/donana-waterbird-paper-code/releases/tag/v1.0.0"
+abstract: "Research code for seasonal profiles, temporal correspondence and local changes in Doñana waterbird monitoring records, including final manuscript figure production. Restricted inputs are supplied separately."

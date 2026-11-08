@@ -1,0 +1,7 @@
+# Validated baseline and release checks
+
+The technical source baseline was verified on 8 November 2026 using the original Windows machine and existing authorized inputs/environments: 14 original analysis stages completed; 335/335 frozen numeric checks passed (maximum absolute error 1.4210854715202004e-14); final Fig. 1–5 600-dpi raster pixels agreed exactly; all five final PDFs agreed at the tested 144-dpi rendering; final Fig. 4 Word SVG matched the actual manuscript carrier. The original 44 scientific source/R files remained unchanged. Sentinel replay used 16 qualified native windows. Fourteen interface acceptance/rejection checks and 43 invented-example exact checks passed.
+
+This public release copies the checked production/analysis/test code byte-for-byte; edits concern public documentation, MIT scope, authorship/citation metadata and release packaging. A source hash inventory records the public payload. No scientific calculations were repeated to prepare the release. The synthetic example may be smoke-tested separately and is never a real-data result.
+
+Fig. 2 retains the original frozen RDS guard and semantic bridge. Full fresh-environment whole-paper reproduction, independent acquisition of every exact frozen input, full OR1/OR2 assembly and cross-platform restoration remain unestablished. Private regression expectations and receipts are not published as data. Code availability does not grant data access or scientific acceptance.

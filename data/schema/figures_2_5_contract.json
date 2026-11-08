@@ -1,0 +1,303 @@
+{
+  "version": 1,
+  "scope": "Presentation replay from completed scientific outputs, not native observation reconstruction",
+  "figures": {
+    "Fig2": [
+      {
+        "path": "f23/03_F2/Fig2_FIGV1_SELECTED_SYSTEM_CANDIDATE_PLOT.rds",
+        "role": "qualified plot object",
+        "format": "rds"
+      },
+      {
+        "path": "f23/03_F2/Fig2_FIGV1_SELECTED_SYSTEM_CANDIDATE.svg",
+        "role": "scientific display source",
+        "format": "svg"
+      },
+      {
+        "path": "f23/formal/03_repaired_figure_sources/F2/FIG2_EXACT_DISPLAY_DATA.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "parent_id",
+          "month",
+          "n_years",
+          "n_events",
+          "median_log1p",
+          "reference_state"
+        ]
+      },
+      {
+        "path": "f23/formal/03_repaired_figure_sources/F2/FIG2_SOURCE_DEFINED_PEAK_MARKS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "parent_id",
+          "month",
+          "n_years",
+          "n_events",
+          "median_log1p",
+          "reference_state"
+        ]
+      },
+      {
+        "path": "f23/formal/03_repaired_figure_sources/F2/F2_DISPLACED_ANNOTATION_SOURCE_LINK.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "parent_id",
+          "month",
+          "n_years",
+          "n_events",
+          "median_log1p",
+          "reference_state",
+          "source_month",
+          "source_median_log1p",
+          "annotation_month",
+          "annotation_median",
+          "leader_x",
+          "leader_y",
+          "leader_xend",
+          "leader_yend"
+        ]
+      }
+    ],
+    "Fig3": [
+      {
+        "path": "f23/06_FIGURE_3/Fig3_CURRENT_SOURCE_REPLAY_PLOT.rds",
+        "role": "qualified plot object",
+        "format": "rds"
+      },
+      {
+        "path": "f23/formal/03_repaired_figure_sources/F2/FIG3_EXACT_DISPLAY_DATA.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "sector",
+          "scenario",
+          "species_a",
+          "species_b",
+          "n_paired_events",
+          "rho",
+          "value_state",
+          "baseline",
+          "role",
+          "x",
+          "y",
+          "lab"
+        ]
+      }
+    ],
+    "Fig4": [
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F4a_GLOBAL_COMPONENTS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "component",
+          "value",
+          "sp"
+        ]
+      },
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F4b_POSITION_SIGNED_MASSES.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "sp",
+          "value",
+          "direction"
+        ]
+      },
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F4c_WEIGHTED_WINDOW_CONTRIBUTIONS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "window",
+          "a_E",
+          "a_L",
+          "signed_contribution",
+          "N_group",
+          "Pplus",
+          "Pminus",
+          "internal_mean_E",
+          "internal_mean_L",
+          "internal_delta_mu",
+          "raw_sum_delta",
+          "position_weight",
+          "slot_n_E",
+          "positive_n_E",
+          "value_sum_E",
+          "f_E",
+          "q_E",
+          "zero_n_E",
+          "slot_n_L",
+          "positive_n_L",
+          "value_sum_L",
+          "f_L",
+          "q_L",
+          "zero_n_L",
+          "local_Cf",
+          "local_Cq",
+          "weighted_local_Cf",
+          "weighted_local_Cq",
+          "q_state",
+          "unsplit_contribution",
+          "species",
+          "negative_net_group_sign_share",
+          "positive_net_group_sign_share",
+          "negative_mass_share",
+          "positive_mass_share",
+          "scenario",
+          "configuration",
+          "sp",
+          "label",
+          "text_colour"
+        ]
+      },
+      {
+        "path": "bridge/results/ground/ANNUAL_CHANGE_SUMMARY.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "scenario",
+          "configuration",
+          "cutoff",
+          "omitted_year",
+          "species",
+          "N",
+          "early_years",
+          "late_years",
+          "early_n",
+          "early_positive_n",
+          "early_zero_n",
+          "early_f",
+          "early_q",
+          "early_mu",
+          "early_recorded_sum",
+          "late_n",
+          "late_positive_n",
+          "late_zero_n",
+          "late_f",
+          "late_q",
+          "late_mu",
+          "late_recorded_sum",
+          "delta_mu",
+          "Cf",
+          "Cq",
+          "q_state",
+          "Pplus",
+          "Pminus",
+          "negative_positions",
+          "positive_positions",
+          "zero_change_positions",
+          "cancellation_fraction"
+        ]
+      },
+      {
+        "path": "fig4/figures/FIG4_L1_DIAMOND_LEGEND.svg",
+        "role": "scientific display source",
+        "format": "svg"
+      }
+    ],
+    "Fig5": [
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F5a_ANNUAL_NAMED_LOCALITY_RECORDS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "year",
+          "parent_id",
+          "parent_name",
+          "parent_code",
+          "Y",
+          "mu",
+          "N",
+          "positive_slots",
+          "case"
+        ]
+      },
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F5a_PERIOD_MEAN_SEGMENTS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "case",
+          "period",
+          "start",
+          "end",
+          "Y"
+        ]
+      },
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F5b_PERIOD_LOCALITY_CHANGES.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "parent_id",
+          "parent_name",
+          "parent_code",
+          "Y_E",
+          "W_E",
+          "H_E",
+          "K_E",
+          "H_state_E",
+          "Y_L",
+          "W_L",
+          "H_L",
+          "K_L",
+          "H_state_L",
+          "delta_Y",
+          "d_parent",
+          "annual_network_contribution",
+          "delta_W",
+          "delta_K",
+          "between",
+          "within",
+          "entry_exit",
+          "decomposition_state",
+          "scenario",
+          "configuration",
+          "species",
+          "window",
+          "Y_2013",
+          "W_2013",
+          "H_2013",
+          "K_2013",
+          "H_state_2013",
+          "year_2013",
+          "Y_2023",
+          "W_2023",
+          "H_2023",
+          "K_2023",
+          "H_state_2023",
+          "year_2023",
+          "endpoint_delta_Y",
+          "endpoint_delta_W",
+          "endpoint_delta_H",
+          "endpoint_delta_K",
+          "case"
+        ]
+      },
+      {
+        "path": "r2/04_MAIN_FIGURES_AND_TABLES/plot_data/F5c_CONCENTRATION_TIME_OBJECTS.csv",
+        "role": "scientific display source",
+        "format": "csv",
+        "columns": [
+          "species",
+          "delta",
+          "level",
+          "object",
+          "sp"
+        ]
+      }
+    ]
+  },
+  "fig2_reference_dependency": "Exact frozen RDS remains required by original adapter. Optional reference run must pass four file identity checks and the original semantic bridge before use. Fresh serialized RDS hash can differ."
+}

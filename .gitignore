@@ -1,0 +1,28 @@
+# Real observations and outputs remain outside the repository.
+__pycache__/
+*.py[cod]
+.venv/
+renv/library/
+.Rhistory
+.RData
+Rplots.pdf
+.env
+*.pem
+*.key
+data/private/
+data/raw/
+outputs/*
+!outputs/README.md
+
+# Author-only inputs, credentials and run products
+private_inputs/
+validation_private/
+*.log
+.env.*
+*.pfx
+*.p12
+*.zip
+*.gpkg
+*.shp
+*.tif
+*.tiff

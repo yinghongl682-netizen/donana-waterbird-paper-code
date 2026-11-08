@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "files": {
+    "S2_SELECTED_ITEMS.json": "f9304125e9c8d292f02d5c44f8dcca61bf6d1abbb98acc5cbf0faca55f3c050e",
+    "native_windows/S2B_29SPA_20220720_0_L2A_blue.tif": "42203e51dee884a872aadb8a786ad9e642996a375ce45e6c5dd51cd09eee1d6c",
+    "native_windows/S2B_29SPA_20220720_0_L2A_green.tif": "70432f4be5a45297f5d7673d678beca3d272cbce0e8624289de1343c12224c01",
+    "native_windows/S2B_29SPA_20220720_0_L2A_red.tif": "0a0fd44a38ad14a97582fe5672f804cc16f4d276cb6bb3be5a417eb00561b5c4",
+    "native_windows/S2B_29SPA_20220720_0_L2A_scl.tif": "9a333d93442c9cb94363809517ae2e319fca03a869c5cd6f2c4d1a338ae1d3a7",
+    "native_windows/S2B_29SPB_20220720_0_L2A_blue.tif": "329560c890abf4d4084c415a83473339dd31053ffcd38b633da81be88b7ca2a9",
+    "native_windows/S2B_29SPB_20220720_0_L2A_green.tif": "a41cdbbc0c632c322a51f3d7aaa4eaf4bd4520cec33dd2395d74185dc1b246a8",
+    "native_windows/S2B_29SPB_20220720_0_L2A_red.tif": "a695e38bbf95f5ae5b1cd4fe53047776e5ddabae163f9606ae8fe7f58080970c",
+    "native_windows/S2B_29SPB_20220720_0_L2A_scl.tif": "2b4a1c5375917c984c4de7528f1676893658a8879aeadecd37817dc31abce605",
+    "native_windows/S2B_29SQA_20220720_0_L2A_blue.tif": "116c2cce8392e1393aff98a2faab8419d8bd00c3dd5bad1348d7ba6b7dcd9962",
+    "native_windows/S2B_29SQA_20220720_0_L2A_green.tif": "6394b6cee6a3faecf67f0af1ad3544693108bdfc335e05d9f7f89d2d5c7a21c6",
+    "native_windows/S2B_29SQA_20220720_0_L2A_red.tif": "805e8960cab1c855c17ddff99e773b3cc422d351f1bc173a94a6fc9e4206700e",
+    "native_windows/S2B_29SQA_20220720_0_L2A_scl.tif": "ea451ae419edcec1bb88d040169287c3ff1445bf49fdf9ece6d0d1e825af264b",
+    "native_windows/S2B_29SQB_20220720_0_L2A_blue.tif": "eb83ae3cf621cf1d328b0a67b723d16d51e71a054baf43b0e6202c8d4ffc8b6a",
+    "native_windows/S2B_29SQB_20220720_0_L2A_green.tif": "dc7383408b836f79c3b4d8eab0f34efd9fb827f6abdd8ffc311ad31ba0bec8c5",
+    "native_windows/S2B_29SQB_20220720_0_L2A_red.tif": "7504abb86318d8e00926f6b1d5d1e1fd443f815685e834c2e0a17d17e998f8e4",
+    "native_windows/S2B_29SQB_20220720_0_L2A_scl.tif": "285bfe1db19aca08453563d8dd9a1bf8e8d37ee924cbd81bb9ceefb99e5e6791"
+  },
+  "items_in_order": [
+    "S2B_29SPA_20220720_0_L2A",
+    "S2B_29SQA_20220720_0_L2A",
+    "S2B_29SPB_20220720_0_L2A",
+    "S2B_29SQB_20220720_0_L2A"
+  ],
+  "expected_png_sha256": "2b75267781fa2be57e8212cd8c60b10ef83c48d4dfef4afaf3cbfc59b78ea741",
+  "scope": "Existing cropped native windows; acquisition not rerun; same-date RGB context only"
+}
