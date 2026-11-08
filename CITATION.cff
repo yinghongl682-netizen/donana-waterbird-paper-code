@@ -11,3 +11,4 @@ license: MIT
 repository-code: "https://github.com/yinghongl682-netizen/donana-waterbird-paper-code"
 url: "https://github.com/yinghongl682-netizen/donana-waterbird-paper-code/releases/tag/v1.0.0"
 abstract: "Research code for seasonal profiles, temporal correspondence and local changes in Doñana waterbird monitoring records, including final manuscript figure production. Restricted inputs are supplied separately."
+doi: "10.5281/zenodo.24053135"

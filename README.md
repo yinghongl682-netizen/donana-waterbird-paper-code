@@ -4,6 +4,8 @@ Version **1.0.0** accompanies *Seasonal peaks, temporal correspondence, and loca
 
 Repository: https://github.com/yinghongl682-netizen/donana-waterbird-paper-code
 
+Fixed v1.0.0 archive: [10.5281/zenodo.24053135](https://doi.org/10.5281/zenodo.24053135). The DOI identifies the fixed release; subsequent citation-metadata updates on `main` do not change that archived version.
+
 ## Included workflows
 
 - Original Python analysis for aerial seasonal references/correspondence, actual-date comparisons, ground frequency/conditional-count components, local contributions, hierarchy/HHI, environmental comparisons and sensitivity diagnostics.
